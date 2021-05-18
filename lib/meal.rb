@@ -6,7 +6,7 @@ class Meal
   def initialize(waiter, customer, total, tip=0)
     @waiter = waiter
     @customer = customer
-    @total = amount
+    @total = total
     @tip = tip
     @@all << self
   end
